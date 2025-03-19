@@ -29,16 +29,16 @@ if st.button('Generate Password'):
 
 st.write('Build with ❤️ by Usama Jameel!')
 
-st.markdown(
-        """
-    <style>
-        [data-testid="stAppViewContainer"] {
-            background-color: #e3f2fd;
-            height: 100vh;
-            text-align: center;
+# st.markdown(
+#         """
+#     <style>
+#         [data-testid="stAppViewContainer"] {
+#             background-color: #e3f2fd;
+#             height: 100vh;
+#             text-align: center;
             
-       }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+#        }
+#     </style>
+#     """,
+#     unsafe_allow_html=True
+# )

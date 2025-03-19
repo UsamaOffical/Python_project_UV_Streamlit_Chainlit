@@ -24,34 +24,34 @@ if st.button('Convert'):
     result = convert_unit(value, unit_from, unit_to)
     st.markdown(f"<p class='converted-text'>Converted Value: {result}</p>", unsafe_allow_html=True)
     
-st.markdown(
-        """
-    <style>
-        [data-testid="stAppViewContainer"] {
-            background: linear-gradient(135deg, #123061, #0d1b2a);
-            height: 100vh;
-         h1 {
-            color: white ;
-            text-align: center;
-        }    
-        label {
-            color: white ;
-            font-size: 18px 
-        }
-        div[data-baseweb="select"] {
-            background-color: lightgray ;
-            border-radius: 5px ;
-        }
-        .converted-text {
-            color: white ;
-            font-size: 22px ;
-            font-weight: bold ;
-            text-align: center;
-            background-color: rgba(255, 255, 255, 0.2);
-            padding: 10px;
-            border-radius: 10px;
-        }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+# st.markdown(
+#         """
+#     <style>
+#         [data-testid="stAppViewContainer"] {
+#             background: linear-gradient(135deg, #123061, #0d1b2a);
+#             height: 100vh;
+#          h1 {
+#             color: white ;
+#             text-align: center;
+#         }    
+#         label {
+#             color: white ;
+#             font-size: 18px 
+#         }
+#         div[data-baseweb="select"] {
+#             background-color: lightgray ;
+#             border-radius: 5px ;
+#         }
+#         .converted-text {
+#             color: white ;
+#             font-size: 22px ;
+#             font-weight: bold ;
+#             text-align: center;
+#             background-color: rgba(255, 255, 255, 0.2);
+#             padding: 10px;
+#             border-radius: 10px;
+#         }
+#     </style>
+#     """,
+#     unsafe_allow_html=True
+# )
